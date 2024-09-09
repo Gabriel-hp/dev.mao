@@ -1,0 +1,69 @@
+/* Responsividade */
+@media (max-width: 991px) {
+    .banner h2, .banner h3 {
+        font-size: 32px;
+    }
+
+    .banner h1 {
+        font-size: 56px;
+    }
+
+    .btn-prin {
+        font-size: 18px;
+        padding: 12px 25px;
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner{
+        height: 40vh;
+    }
+    .header {
+        padding: 0 15px;
+    }
+
+    .banner h2, .banner h3 {
+        font-size: 28px;
+    }
+
+    .banner h1 {
+        font-size: 48px;
+    }
+
+    .btn-prin {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 250px;
+    }
+    .servicos{
+        margin: 0 auto;
+    }
+    .servicos .row{
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .header h2 {
+        font-size: 20px;
+    }
+
+    .banner h2, .banner h3 {
+        font-size: 24px;
+    }
+
+    .banner h1 {
+        font-size: 36px;
+    }
+
+    .btn-prin {
+        font-size: 14px;
+        padding: 8px 18px;
+        width: 200px;
+    }
+}
