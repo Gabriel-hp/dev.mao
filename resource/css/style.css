@@ -382,8 +382,7 @@ form {
     
   }
 
-  input,
-textarea {
+  input {
   /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
   font: 1em sans-serif;
   width: 300px;
@@ -401,16 +400,6 @@ textarea:focus {
   border-color: #727272;
 }
 
-textarea {
-    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
-    vertical-align: top;
-  
-    /* Para dar espaço suficiente para digitar algum texto */
-    height: 5em;
-  
-    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
-    resize: vertical;
-  }
   .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
     padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
