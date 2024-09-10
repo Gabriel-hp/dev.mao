@@ -9,103 +9,92 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-    <title>Dev.mao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- Bootstrap CSS -->
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+      <!-- Bootstrap JS -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <title>DevPixels</title>
 </head>
 <body>
 
     <section class="header">
-        <div class="container">
+        <div class="container-header">
             <nav class="navbar navbar-expand-lg pd-0 pr-0">
-                <a class="navbar-brand wow fadeIn">
-                    <h2 class="logon"><b>Dev.mao</b></h2>
+                <a class="navbar-brand wow fadeIn" href="#">
+                    <h2 class="logon"><b>DevPixels</b></h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                     <span class="navbar-toggler-icon">
                         <i class="fas fa-bars"></i>
                     </span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto mr-auto wow fadeIn">
-                        
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#banner" class="nav-link"> <b> Inicio </b></a>
+                            <a href="#banner" class="nav-link"><b>Início</b></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#servico" class="nav-link"> <b> Serviços </b></a>
+                            <a href="#servico" class="nav-link"><b>Serviços</b></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#depoimentos" class="nav-link"> <b> Depoimentos </b></a>
+                            <a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contato" class="nav-link"> <b> Contato </b></a>
+                            <a href="#contato" class="nav-link"><b>Contato</b></a>
                         </li>
                     </ul>
-                    
                 </div>
-                
             </nav>
-            
         </div>
     </section>
+    
 
     <section class="banner">
         <div class="central">
-            <h2>CONVERTA CLIQUES EM</h2>
+            <h2><b>CONVERTA CLIQUES EM</b></h2>
             <h1>Clientes</h1>
-            <h3>DESENVOLVEMOS <br> SITES QUE VENDEM</h3>
+            <h3><b>DESENVOLVEMOS <br> SITES QUE VENDEM</b></h3>
             <button class="btn-prin"><a href="#">Faça um orçamento gratuito</a></button>
         </div>
 
     </section>
 
-    <section class="servicos">
+     <!-- Serviços -->
+     <section class="servicos py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="quad"></div>
-                    <h1>Layout personalizado</h1>
-                    <p>O layout é exclusivo e desenvolvido por especialistas. Formas, cores, imagens, ícones. Tudo isso é pensado nos mínimos detalhes, especialmente para você. </p>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="quad mb-3"><img src="/resource/img/icons/layout.png" alt=""></div>
+                    <h1><b>Layout Personalizado</b></h1>
+                    <p>O layout é exclusivo e desenvolvido por especialistas. Tudo pensado nos mínimos detalhes, especialmente para você.</p>
                 </div>
 
-                <div class="col-3">
-                    <div class="quad"></div>
-                    <h1>Layout personalizado</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur accusamus odit </p>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="quad mb-3"><img src="/resource/img/icons/responsivo.png" alt=""></div>
+                    <h1><b>Design Responsivo</b></h1>
+                    <p>Nossos designs são totalmente responsivos, garantindo uma ótima experiência em qualquer dispositivo.</p>
                 </div>
 
-                <div class="col-3">
-                    <div class="quad"></div>
-                    <h1>Layout personalizado</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur accusamus odit </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-3">
-                    <div class="quad"></div>
-                    <h1>Layout personalizado</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur accusamus odit </p>
-                </div>
-
-                <div class="col-3">
-                    <div class="quad"></div>
-                    <h1>Layout personalizado</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur accusamus odit </p>
-                </div>
-
-                <div class="col-3">
-                    <div class="quad"></div>
-                    <h1>Layout personalizado</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit consequuntur accusamus odit </p>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="quad mb-3"><img src="/resource/img/icons/search-engine-optimization.png" alt=""></div>
+                    <h1><b>SEO Otimizado</b></h1>
+                    <p>Os sites que desenvolvemos são otimizados para motores de busca, aumentando a visibilidade e o alcance do seu negócio.</p>
                 </div>
             </div>
         </div>
     </section>
 
+
     <section class="servicos-2">
         <h1>Conheça o nosso trabalho</h1>
         <div class="section">
-            <div class="row">
+            <div class="serv">
                 <div class="col-3 mai">
                         <div class="quad-man">
                             <h1>e-commerce</h1>
@@ -133,5 +122,201 @@
         </div>
         <button class="btn-prin"><a href="#">Faça um orçamento gratuito</a></button>
     </section>
+
+
+    <section class="processo">
+        <h1>Do Início ao Sucesso - Nosso Processo em 6 Passos</h1>
+        <div id="processoCarrossel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="quad-man">
+                            <h1>1. Consulta Inicial</h1>
+                            <p class="manis">Começamos com uma reunião para entender suas necessidades e objetivos.</p>
+                        </div>
+                        <div class="quad-man">
+                            <h1>2. Proposta e Planejamento</h1>
+                            <p class="manis">Desenvolvemos uma proposta, detalhando as etapas do projeto, prazos e custos.</p>
+                        </div>
+                        <div class="quad-man">
+                            <h1>3. Design e Protótipos</h1>
+                            <p class="manis">Criamos wireframes e protótipos interativos para você visualizar como será o seu projeto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="quad-man">
+                            <h1>4. Desenvolvimento</h1>
+                            <p class="manis">Nossa equipe de desenvolvedores começa a codificar seu projeto.</p>
+                        </div>
+                        <div class="quad-man">
+                            <h1>5. Testes e Qualidade</h1>
+                            <p class="manis">Realizamos testes rigorosos para garantir que tudo funcione perfeitamente.</p>
+                        </div>
+                        <div class="quad-man">
+                            <h1>6. Publicação</h1>
+                            <p class="manis">Após sua aprovação final, lançamos o projeto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#processoCarrossel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#processoCarrossel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+
+    <section class="feedback">
+        <h1>Feedback dos nossos clientes</h1>
+        <div class="serv">
+            <div class="col-3">
+                <div class="card feedback-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="/resource/img/feedback/jose.jpg" alt="Marília Crivello" class="rounded-circle" width="50" height="50">
+                            <div class="ms-3">
+                                <h5 class="card-title mb-0">Marília Crivello</h5>
+                                <p class="card-subtitle text-muted">Holos Gestão</p>
+                            </div>
+                        </div>
+                        <p class="card-text">
+                            <span class="quote">&ldquo;</span> Conheci a Vime buscando uma agência que pudesse ser meu braço direito para construir minhas redes sociais e meu site, e não podia ter feito escolha melhor! Por tudo isso, minha palavra é GRATIDÃO e meu desejo é que essa parceria siga por muito tempo!!! <span class="quote">&rdquo;</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card feedback-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="/resource/img/feedback/laura.jpg" alt="Marília Crivello" class="rounded-circle" width="50" height="50">
+                            <div class="ms-3">
+                                <h5 class="card-title mb-0">Marília Crivello</h5>
+                                <p class="card-subtitle text-muted">Holos Gestão</p>
+                            </div>
+                        </div>
+                        <p class="card-text">
+                            <span class="quote">&ldquo;</span> Conheci a Vime buscando uma agência que pudesse ser meu braço direito para construir minhas redes sociais e meu site, e não podia ter feito escolha melhor! Por tudo isso, minha palavra é GRATIDÃO e meu desejo é que essa parceria siga por muito tempo!!! <span class="quote">&rdquo;</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card feedback-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="/resource/img/feedback/maria.jpg" alt="Marília Crivello" class="rounded-circle" width="50" height="50">
+                            <div class="ms-3">
+                                <h5 class="card-title mb-0">Marília Crivello</h5>
+                                <p class="card-subtitle text-muted">Holos Gestão</p>
+                            </div>
+                        </div>
+                        <p class="card-text">
+                            <span class="quote">&ldquo;</span> Conheci a Vime buscando uma agência que pudesse ser meu braço direito para construir minhas redes sociais e meu site, e não podia ter feito escolha melhor! Por tudo isso, minha palavra é GRATIDÃO e meu desejo é que essa parceria siga por muito tempo!!! <span class="quote">&rdquo;</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <section class="contato">
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 text-success"><b>Solicite um orçamento</b></h1>
+                    <p class="lead text-white">Preencha o formulário com os dados necessários. Nosso setor comercial irá entrar em contato com você para tirar suas dúvidas e lhe enviar o melhor orçamento possível.</p>
+                    
+                </div>
+                <div class="col-md-6 ">
+                    <form action="/pagina-processa-dados-do-form" method="post">
+                        <div>
+                          <label for="name">Nome:</label>
+                          <input type="text" id="name" />
+                        </div>
+                        <div>
+                          <label for="mail">E-mail:</label>
+                          <input type="email" id="mail"/>
+                        </div>
+                        <div>
+                            <label for="mail">Área profissional:</label>
+                            <input type="text" id="mail"/>
+                          </div>
+                        <div class="button">
+                            <button class="btn btn-success btn-lg">Solicitar Orçamento</button>
+                        </div>
+                      </form>
+                      
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+        <footer class="footer py-4">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo e Descrição -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="text-uppercase text-white">DevPixels</h5>
+                            <p class="text-muted">Nós oferecemos as melhores soluções para o seu negócio. Entre em contato e conheça nossos serviços.</p>
+                        </div>
+            
+                        <!-- Links rápidos -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="text-uppercase text-white">Links Rápidos</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">Início</a></li>
+                                <li><a href="#" class="text-muted">Sobre Nós</a></li>
+                                <li><a href="#" class="text-muted">Serviços</a></li>
+                                <li><a href="#" class="text-muted">Contato</a></li>
+                            </ul>
+                        </div>
+            
+                        <!-- Redes Sociais -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="text-uppercase text-white">Siga-nos</h5>
+                            <div class="d-flex">
+                                <a href="#" class="text-muted me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                                <a href="#" class="text-muted me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                                <a href="#" class="text-muted me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                                <a href="#" class="text-muted"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Copyright -->
+                    <div class="row">
+                        <div class="col text-center text-muted">
+                            <p>&copy; 2024 DevPixel. Todos os direitos reservados.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+  
+
+    
 </body>
+<script>
+    var myCarousel = document.querySelector('#processoCarrossel')
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 10000 // Tempo em milissegundos (2000ms = 2 segundos)
+    })
+  </script>
+  
 </html>

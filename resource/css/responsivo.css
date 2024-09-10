@@ -46,24 +46,138 @@
         flex-direction: column;
 
     }
+    
 }
 
 @media (max-width: 575px) {
+
+
     .header h2 {
-        font-size: 20px;
+        font-size: 15px;
+        margin: 5px;
     }
 
     .banner h2, .banner h3 {
-        font-size: 24px;
+        font-size: 14px;
     }
 
     .banner h1 {
-        font-size: 36px;
+        font-size: 25px;
+        margin-top: -4px ;
+        margin-bottom: -4px ;
     }
 
     .btn-prin {
-        font-size: 14px;
-        padding: 8px 18px;
+        font-size: 12px;
+        padding: 8px 10px;
         width: 200px;
     }
+
+
+    .servicos h1{
+        font-size: 18px;
+        color: var(--color-green);
+        width: 180px;
+    }
+    .servicos p{
+        font-size: 14px;
+        width: 180px;
+
+    }
+    
+    .servicos .quad {
+        margin-top: 10px;
+        width: 80px;
+    }
+
+    .servicos-2 h1{
+        color: #000000;
+        font-size: 18px;
+    }
+
+    .servicos-2 {
+        height: auto;
+    }
+    
+    .serv{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        margin: 0 auto;
+    }
+    
+    .servicos-2 .quad-man{
+        margin-top: 35px;
+        background: rgb(56,226,150);
+        background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%);
+        border-radius: 10px 100px;
+    }
+    
+    .servicos-2 .quad-man h1{
+        color: #0F0F0F;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    .servicos-2 .quad-man p{
+        color: #0F0F0F;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    
+    
+    .servicos-2 .quad-man{
+        margin-top: 35px;
+        background-color: var(--color-green);
+        width: 250px;
+        height: 250px;
+        border-radius: 10px 100px;
+    }
+    
+    .servicos-2 .quad-man img{
+        margin-top: 15px;
+        width: 250px;
+        border-radius: 0px 95px;
+    }
+
+    .processo h1{
+        margin-top: 5px;
+        font-size: 18px;
+        width: 280px;
+    }
+    
+    
+    .processo .quad-man{
+        margin-bottom: 10px;
+        margin-top: 7px;
+        background: rgb(56,226,150);
+        background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%) !important;
+        width: 220px !important;
+        height: 150px !important;
+        border-radius: 10px 100px 10px 10px !important;
+    }
+    
+    .processo .quad-man h1{
+        color:var(--color-background);
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 15px;
+        width: 120px;
+    }
+    .processo .quad-man p{
+        color: var(--color-background);
+        font-size: 14px;
+        margin-left: 15px;
+        width: 195px;   
+    }
+    
+    
+    .processo .quad-man{
+        margin-top: 35px;
+        background-color: var(--color-green) !important;
+        width: 320px;
+        height: 320px;
+        border-radius: 10px 100px;
+    }
+    
 }

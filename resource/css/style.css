@@ -22,23 +22,28 @@
 
 *{
     text-decoration: none !important;
+    
 }
 html, body {
     font-family: 'PoppinsRegular', 'Rubik', sans-serif;
     background-color: var(--color-background);
     color: var(--color-separate);
-
+    
 }
 
 .header{
-    background-color: var(--color-background);
+    background-color: #000000;
     height: 60px;
-    position: sticky; 
+    position: sticky !important; 
     top: 0;
     width: 100%;
     z-index: 1000;
     display: flex;
     border-bottom: 1px solid var(--color-green);
+   
+}
+body{
+    overflow-x: hidden
 }
 
 .nav-link {
@@ -46,6 +51,7 @@ html, body {
     justify-content: space-between!important;
     padding-left: 35px!important;
     padding-right: 35px!important;
+    
 }
 .header h2{
     color:  var(--color-green) ;
@@ -73,7 +79,7 @@ html, body {
 }
 
 .banner h2{
-    margin-top: 35px;
+    margin-top: 55px;
     color: var(--color-separate);
     font-size: 50px;
 }
@@ -84,14 +90,17 @@ html, body {
 }
 
 .banner h1{
+    margin-top: -50px ;
+    margin-bottom: -40px ;
     color: var(--color-green);
-    font-size: 96px;
+    font-size: 150px;
     font-family: "Nerko One", cursive;
 }
 
  .btn-prin{
     margin-top: 50px;
-    background-color: var(--color-green);
+    background: rgb(56,226,150);
+background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%);
     width: 400px;
     height: 75px;
     font-size: 25px;
@@ -99,9 +108,12 @@ html, body {
     
 }
 .btn-prin:hover{
-    background-color: #4effaf;
-    transition: .5s;
-    box-shadow: 2px 20px 20px 2px rgba(90, 253, 85, 0.1);
+    background: rgb(30,191,119);
+    background: linear-gradient(90deg, rgba(30,191,119,1) 0%, rgba(5,70,41,1) 100%);
+    transition: .7s;
+    -webkit-box-shadow: -2px 15px 68px -21px rgba(17,142,86,1);
+    -moz-box-shadow: -2px 15px 68px -21px rgba(17,142,86,1);
+    box-shadow: -2px 15px 68px -21px rgba(17,142,86,1);
 }
 
 .btn-prin a{
@@ -115,35 +127,34 @@ html, body {
     background-color: var(--color-background);
     color: #cccccc;
     height: 100vh;
+   display: flex;
+   align-items: center;
 }
 
-
-.servicos .col-3{
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    
-    margin: 0 auto;
-}
-.servicos .col-3 h1{
-    font-size: 18px;
-
-    
-}
-.servicos .col-3 p{
-    font-size: 14px;
-}
 
 .servicos .quad{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.servicos h1{
+    font-size: 30px;
+    color: var(--color-green);
+}
+.servicos p{
+    font-size: 20px;
+}
+
+.servicos .quad {
     margin-top: 35px;
-    background-color: var(--color-green);
     width: 120px;
     height: 120px;
     border-radius: 10px 50px;
+    
 }
 
 .servicos-2{
-    --color-separate: #cccccc;
     color: #000000;
     height: 100vh;
 }
@@ -157,7 +168,8 @@ html, body {
 
 .servicos-2 .quad-man{
     margin-top: 35px;
-    background-color: var(--color-green);
+    background: rgb(56,226,150);
+    background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%);
     width: 320px;
     height: 320px;
     border-radius: 10px 100px;
@@ -174,7 +186,10 @@ html, body {
     font-size: 18px;
     margin-left: 15px;
 }
-
+.serv{
+    display: flex;
+    flex-direction: row;
+}
 
 .servicos-2 .quad-man{
     margin-top: 35px;
@@ -195,3 +210,250 @@ html, body {
    flex-direction: column;
    align-items: center;
 }
+
+
+.processo{
+    background-color: var(--color-background);
+    color: var(--color-separate);
+    
+}
+.processo h1{
+    margin-top: 45px;
+}
+
+.processo .col-3{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin: 0 auto;
+}
+
+.processo .quad-man{
+    margin-bottom: 50px;
+    margin-top: 35px;
+    background: rgb(56,226,150);
+    background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%) !important;
+    width: 360px;
+    height: 200px !important;
+    border-radius: 10px 100px 10px 10px !important;
+}
+
+.processo .quad-man h1{
+    color:var(--color-background);
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 120px;
+}
+.processo .quad-man p{
+    color: var(--color-background);
+    font-size: 18px;
+    margin-left: 15px;
+    width: 250px;   
+}
+
+
+.processo .quad-man{
+    margin-top: 35px;
+    background-color: var(--color-green) !important;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px 100px;
+}
+
+.carousel-inner {
+    max-width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Ajuste a cor conforme necessário */
+    border-radius: 50%;
+}
+.carousel-item {
+    transition: transform 10s ease-in-out; /* Ajuste o tempo (1s) para o desejado */
+  }
+
+.feedback{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback h1{
+    color: var(--color-green);
+    margin: 55px;
+}
+
+.feedback .col-3{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+.feedback-card {
+    border: none;
+    background-color: #f8f9fa;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card .card-body {
+    padding: 20px;
+    position: relative;
+}
+
+.feedback-card .rounded-circle {
+    object-fit: cover;
+}
+
+.feedback-card .quote {
+    font-size: 2rem;
+    color: #ccc;
+    position: relative;
+    top: 10px;
+}
+
+.feedback-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.feedback-card .card-subtitle {
+    font-size: 0.9rem;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.display-4 {
+    color: #00ff77;
+    text-decoration: underline;
+}
+
+.lead {
+    color: #cccccc;
+}
+
+.btn-success {
+
+    background-color: #00ff77;
+    border: none;
+    border-radius: 50px 10px  100px !important;
+}
+
+.btn-success:hover {
+    background-color: #00cc5c;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.contato{
+    background-color: var(--color-background);
+    height: 100vh;
+}
+.contato h1{
+    font-size: 80px;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 380px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #ffff;
+    border-radius: 10px 50px;
+  }
+  form div + div {
+    margin-top: 1em;
+  }
+  label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    
+  }
+
+  input,
+textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50px 10px  100px;
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #d6d4d4;
+  background-color: #d6d4d4;
+}
+
+input:focus,
+textarea:focus {
+  /* Dar um pouco de destaque nos elementos ativos */
+  border-color: #727272;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+  
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+  }
+  .button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+  }
+  button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: 0.5em;
+  }
+
+
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ccc !important;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #00ff77 !important;
+}
+
+.footer h5 {
+    color: #ccc !important;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer p {
+    color: #ccc !important;
+    line-height: 1.7;
+}
+
+.footer .fab {
+    transition: color 0.3s;
+    color: #ccc !important;
+}
+
+.footer .fab:hover {
+    color: #00ff77 !important;
+}
+
+    
