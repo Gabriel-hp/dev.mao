@@ -126,7 +126,7 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
 .servicos{
     background-color: var(--color-background);
     color: #cccccc;
-    height: 100vh;
+    height: auto;
    display: flex;
    align-items: center;
 }
@@ -217,7 +217,7 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     color: var(--color-separate);
     
 }
-.processo h1{
+.proce-h1 h1{
     margin-top: 45px;
 }
 
@@ -259,6 +259,7 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     width: 320px;
     height: 320px;
     border-radius: 10px 100px;
+    margin:50px;
 }
 
 .carousel-inner {
@@ -270,7 +271,7 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     border-radius: 50%;
 }
 .carousel-item {
-    transition: transform 10s ease-in-out; /* Ajuste o tempo (1s) para o desejado */
+    transition: transform 3s ease-in-out; /* Ajuste o tempo (1s) para o desejado */
   }
 
 .feedback{
@@ -402,7 +403,7 @@ textarea:focus {
 
   .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+    padding-left: 50px; /* mesmo tamanho que os elementos do tipo label */
   }
   button {
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
