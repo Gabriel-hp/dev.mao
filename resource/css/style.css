@@ -188,13 +188,6 @@ body{
     flex-direction: row;
 }
 
-.servicos-2 .quad-man{
-    margin-top: 35px;
-    background-color: var(--color-green);
-    width: 320px;
-    height: 320px;
-    border-radius: 10px 100px;
-}
 
 .servicos-2 h1 {
 color: #0c0c0c !important;
@@ -298,7 +291,7 @@ color: #0c0c0c !important;
   }
 
 .feedback{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
