@@ -452,3 +452,19 @@ textarea:focus {
 .sobre-nos h1{
     color: #ccc;
 }
+
+.modal{
+    background-color: #0025111a !important;
+}
+
+.modal-content{
+    border-radius: 10px 20px 10px 150px !important; 
+    background-color: #00cc5c;
+}
+.modal h5, .modal h3{
+    color: rgb(0, 102, 0);
+}
+
+.modal-footer{
+    margin-right: 25px;
+}
