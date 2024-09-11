@@ -99,11 +99,12 @@ body{
 
  .btn-prin{
     margin-top: 50px;
+    border: none;
     background: rgb(56,226,150);
-background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%);
-    width: 400px;
+    background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%);
+    width: 420px;
     height: 75px;
-    font-size: 25px;
+    font-size: 22px;
     border-radius: 10px 100px;
     
 }
@@ -181,11 +182,7 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     margin-top: 5px;
     margin-left: 15px;
 }
-.servicos-2 .quad-man p{
-    color: #0F0F0F;
-    font-size: 18px;
-    margin-left: 15px;
-}
+
 .serv{
     display: flex;
     flex-direction: row;
@@ -199,8 +196,8 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     border-radius: 10px 100px;
 }
 
-.servicos-2 .quad-man h1 button{
-    margin-right: 350px;
+.servicos-2 h1 {
+color: #0c0c0c !important;
 }
 
 .servicos-2 .quad-man img{
@@ -217,10 +214,31 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
 }
 
 
+.buton-sec{
+    margin-left: 15px;
+    background: rgb(2, 139, 77);
+    border: none;
+    color: #cccccc;
+    width: 180px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px 100px;
+}
+.buton-sec:hover{
+    background: rgb(30,191,119);
+    background: linear-gradient(200deg, rgba(30,191,119,1) 0%, rgba(5,70,41,1) 100%);
+    transition: .9s;
+}
+
+
+
+
 .processo{
     background-color: var(--color-background);
     color: var(--color-separate);
-    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .proce-h1 h1{
     margin-top: 45px;
@@ -230,7 +248,7 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     display: flex;
     flex-direction: column;
     margin: 5px;
-    margin: 0 auto;
+
 }
 
 .processo .quad-man{

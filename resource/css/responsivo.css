@@ -52,6 +52,12 @@
 
 @media (max-width: 575px) {
 
+    .btn-prin{
+        width: 320px;
+        height: 75px;
+        font-size: 18px !important;
+    } 
+
 
     .header h2 {
         font-size: 15px;
@@ -59,14 +65,14 @@
     }
 
     .banner h2, .banner h3 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .banner{
         height: auto;
     }
 
     .banner h1 {
-        font-size: 40px;
+        font-size: 85px !important;
         margin-top: -4px ;
         margin-bottom: -4px ;
     }
@@ -133,10 +139,19 @@
         display: flex;
         flex-direction: column;
     }
+
+    .servicos-2{
+        height: auto;
+    }
     
     .servicos-2 .quad-man{
-        margin-top: 35px;
-        
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+    .servicos-2 .quad-man h1{
+        font-size: 24px;
+        margin-top: 5px;
+        margin-right: 80px;
     }
     
     .servicos-2 .quad-man h1{
@@ -169,6 +184,7 @@
         font-size: 18px !important;
         width: 280px;
         margin-top: 50px !important;
+
     }
      .proce-h1 h1{
         margin-top: 50px !important;
@@ -176,6 +192,7 @@
 
     .processo{
         height: 50vh;
+        
     }
     
     
@@ -211,6 +228,10 @@
         width: 320px;
         height: 320px;
         border-radius: 10px 100px;
+    }
+
+    .contato{
+        height: auto;
     }
 
     .contato h1{
