@@ -199,9 +199,14 @@ background: linear-gradient(90deg, rgba(56,226,150,1) 0%, rgba(17,142,86,1) 100%
     border-radius: 10px 100px;
 }
 
+.servicos-2 .quad-man h1 button{
+    margin-right: 350px;
+}
+
 .servicos-2 .quad-man img{
     margin-top: 15px;
     width: 320px;
+    height: 250px;
     border-radius: 0px 95px;
 }
 
