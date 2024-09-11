@@ -446,4 +446,9 @@ textarea:focus {
     color: #00ff77 !important;
 }
 
-    
+.sobre-nos{
+    background-color: var(--color-background);
+}
+.sobre-nos h1{
+    color: #ccc;
+}
